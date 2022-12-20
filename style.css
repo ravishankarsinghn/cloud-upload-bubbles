@@ -201,8 +201,7 @@ main {
   transform: translate(-50%, 1em) scale(1);
 }
 
-.upload--running,
-.upload__cloud-right {
+.upload--running .upload__cloud-right {
   transform: translateX(-2.5em);
 }
 
