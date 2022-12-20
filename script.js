@@ -9,7 +9,7 @@ class FileUpload {
   isUploading = false;
   progress = 0;
   timeout = null;
-  uploadClass = "upload-running";
+  uploadClass = "upload--running";
   doneClass = "upload--done";
 
   constructor(el) {
