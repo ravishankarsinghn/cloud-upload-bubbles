@@ -113,7 +113,7 @@ class FileUpload {
 
 class Utils {
   static randomFloat(min = 0, max = 2 ** 32) {
-    const percent = crypto.getRandomValues(new Unit32Array(1))[0] / 2 ** 32;
+    const percent = crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
     const relativeValue = (max - min) * percent;
 
     return min + relativeValue;
